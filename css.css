@@ -1,0 +1,67 @@
+/* General Styling */
+* {
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	/*margin: 25px;*/
+	/*padding-top: 0;*/
+	/*box-sizing: border-box;*/
+	/*margin:10px;*/
+	/*margin: auto;*/
+}
+
+body {
+	font-family: charlemagne std, sans-serif;
+	line-height: 1.4;
+	color: #333;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+	text-align: center;
+	/*padding-top: 4;*/
+}
+
+.navbar{
+	/*margin: 35px;*/
+	color: #fff;
+	/*border-bottom: 2px solid #red;*/
+	justify-content: space-between;
+	display: flex;
+	position: sticky;
+	/*background: #2184cd;*/
+}
+
+.text-primary{
+	color: #fff;
+}
+
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+	/*color: #115A7A;*/
+	margin: auto;
+}
+
+#navbar h1 a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.navbar li a{
+	color: #115A7A;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1rem;
+	transition: background-color 0.3s;
+	margin: auto;
+}
+
+.navbar li a:hover {
+	background-color: #3693ff;
